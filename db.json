@@ -1,0 +1,284 @@
+{
+  "user": [
+    {
+      "id": "adminuser",
+      "name": "Nihira",
+      "password": "admin",
+      "email": "nihiratechiees@gmail.com",
+      "phone": "8989898989",
+      "country": "USA",
+      "address": "",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "ntuser",
+      "name": "Fullname",
+      "password": "ntuser",
+      "email": "email@email.com",
+      "phone": "56778889989",
+      "country": "Singapore",
+      "address": "address1\naddress2",
+      "role": "user",
+      "gender": "male"
+    },
+    {
+      "id": "pooja",
+      "name": "poojasree",
+      "password": "xyz",
+      "email": "pooja@gmail.com",
+      "phone": "6389542198",
+      "country": "India",
+      "address": "",
+      "gender": "female"
+    },
+    {
+      "id": "archu",
+      "name": "archana",
+      "password": "ak",
+      "email": "archana@gmail.com",
+      "phone": "",
+      "country": "India",
+      "address": "",
+      "gender": "female"
+    },
+    {
+      "id": "jai",
+      "name": "jaykanth",
+      "password": "xyz",
+      "email": "jai@gmail.com",
+      "phone": "9785642153",
+      "country": "India",
+      "address": "",
+      "gender": "male"
+    },
+    {
+      "id": "ashok",
+      "name": "ashok kumar",
+      "password": "xyz",
+      "email": "ashok@gmail.com",
+      "phone": "",
+      "country": "",
+      "address": "no 6",
+      "gender": "male"
+    },
+    {
+      "id": "pooja",
+      "name": "poo",
+      "password": "xyz",
+      "email": "pooja@gmail.com",
+      "phone": "99999",
+      "country": "",
+      "address": "",
+      "gender": "female"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Hotel Grand",
+      "location": "Mumbai",
+      "pricePerNight": 1550,
+      "rating": 3.5,
+      "description": "A luxurious hotel located in the heart of Mumbai. Offers modern amenities and stunning views.",
+      "imageUrl": "https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "amenities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Gym",
+        "Spa"
+      ],
+      "rooms": [
+        {
+          "type": "Deluxe Suite",
+          "price": 2500,
+          "features": [
+            "King Bed",
+            "Ocean View",
+            "Jacuzzi"
+          ]
+        },
+        {
+          "type": "Standard Room",
+          "price": 1550,
+          "features": [
+            "Queen Bed",
+            "City View"
+          ]
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "The Royal Inn",
+      "location": "Jaipur",
+      "pricePerNight": 1800,
+      "rating": 4.8,
+      "description": "Elegant hotel with exceptional service and an excellent location in Jaipur.",
+      "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "amenities": [
+        "Free Breakfast",
+        "Business Center",
+        "Bar",
+        "Restaurant"
+      ],
+      "rooms": [
+        {
+          "type": "Executive Suite",
+          "price": 3000,
+          "features": [
+            "King Bed",
+            "City View",
+            "Private Balcony"
+          ]
+        },
+        {
+          "type": "Standard Room",
+          "price": 1800,
+          "features": [
+            "King Bed"
+          ]
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "The Luxury",
+      "location": "Chennai",
+      "pricePerNight": 1500,
+      "rating": 3.7,
+      "description": "A beachfront resort offering a relaxing getaway with access to all beach activities.",
+      "imageUrl": "https://images.pexels.com/photos/2869215/pexels-photo-2869215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "amenities": [
+        "Beach Access",
+        "Water Sports",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "rooms": [
+        {
+          "type": "Oceanfront Room",
+          "price": 2500,
+          "features": [
+            "King Bed",
+            "Ocean View",
+            "Private Balcony"
+          ]
+        },
+        {
+          "type": "Poolside Room",
+          "price": 2000,
+          "features": [
+            "Queen Bed",
+            "Pool View"
+          ]
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "4",
+      "name": "Mountain Lodge",
+      "location": "Ooty",
+      "pricePerNight": 2200,
+      "rating": 4.6,
+      "description": "Cozy lodge located in the mountains, perfect for skiing and winter sports enthusiasts.",
+      "imageUrl": "https://images.pexels.com/photos/939715/pexels-photo-939715.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "amenities": [
+        "Ski Equipment Rental",
+        "Hot Tub",
+        "Restaurant",
+        "Bar"
+      ],
+      "rooms": [
+        {
+          "type": "Mountain View Suite",
+          "price": 3000,
+          "features": [
+            "King Bed",
+            "Mountain View",
+            "Fireplace"
+          ]
+        },
+        {
+          "type": "Standard Room",
+          "price": 2200,
+          "features": [
+            "Queen Bed"
+          ]
+        }
+      ],
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "The Beach Resort",
+      "location": "Bengaluru",
+      "pricePerNight": 2500,
+      "rating": 4.4,
+      "description": "Modern hotel with a central location, offering easy access to Bengaluru's top attractions.",
+      "imageUrl": "https://images.pexels.com/photos/1320686/pexels-photo-1320686.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "amenities": [
+        "Free WiFi",
+        "Parking",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "rooms": [
+        {
+          "type": "Penthouse Suite",
+          "price": 3500,
+          "features": [
+            "King Bed",
+            "City View",
+            "Private Terrace"
+          ]
+        },
+        {
+          "type": "Standard Room",
+          "price": 1700,
+          "features": [
+            "Queen Bed"
+          ]
+        }
+      ],
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "e366",
+      "hotelId": "1",
+      "hotelName": "Hotel Grand",
+      "guestName": "Sneha P S",
+      "checkInDate": "2024-08-09",
+      "checkOutDate": "2024-08-12",
+      "totalPrice": 4650,
+      "roomType": "Standard Room"
+    },
+    {
+      "id": "d106",
+      "hotelId": "1",
+      "hotelName": "Hotel Grand",
+      "guestName": "Veena S",
+      "checkInDate": "2024-08-10",
+      "checkOutDate": "2024-08-13",
+      "totalPrice": 4650,
+      "roomType": "Standard Room"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": "ntuser",
+      "hotelId": "1",
+      "id": "73c5"
+    },
+    {
+      "userId": "sneha",
+      "hotelId": "3",
+      "id": "d4b8"
+    }
+  ]
+}

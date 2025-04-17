@@ -1,0 +1,71 @@
+/* Container for hotel details */
+.hotel-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading for hotel name */
+.hotel-detail h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Image of the hotel */
+.hotel-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling for hotel details */
+.hotel-detail p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Button styling for booking */
+.book-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for booking button */
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for amenities and room details */
+.hotel-amenities, .hotel-rooms {
+    margin-top: 20px;
+}
+
+.hotel-amenities h3, .hotel-rooms h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.hotel-amenities ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.room-details {
+    margin-bottom: 20px;
+}
+
+.room-details h4 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.room-details p {
+    margin: 5px 0;
+}
